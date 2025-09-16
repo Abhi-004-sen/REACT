@@ -1,0 +1,39 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img{
+height: 200px;
+width: 200px;
+}
+.design{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5rem;
+  text-align: center;
+
+}
+.card{
+  height: 500px;
+  width: 300px;
+  border: 2px solid;
+  padding: 20px;
+
+}
+.nav ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav ul li{
+  list-style: none;
+  border: 2px solid;
+  padding: 10px;
+}
